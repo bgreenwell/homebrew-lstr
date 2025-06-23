@@ -1,4 +1,4 @@
-PASTE_THE_X86_64_CHECKSUM_HERE# Formula/lstr.rb
+# Formula/lstr.rb
 
 class Lstr < Formula
   desc "A blazingly fast, minimalist directory tree viewer"
@@ -10,10 +10,10 @@ class Lstr < Formula
   # Define URLs and checksums for both architectures
   if Hardware::CPU.intel?
     url "https://github.com/bgreenwell/lstr/releases/download/v0.2.0/lstr-macos-x86_64.tar.gz"
-    sha256 "PASTE_THE_X86_64_CHECKSUM_HERE" # We'll automate this
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   else
     url "https://github.com/bgreenwell/lstr/releases/download/v0.2.0/lstr-macos-arm64.tar.gz"
-    sha256 "PASTE_THE_AARCH64_CHECKSUM_HERE" # We'll automate this
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   def install
