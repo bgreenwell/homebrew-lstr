@@ -1,7 +1,7 @@
 # Formula/lstr.rb
 
 class Lstr < Formula
-  desc "A blazingly fast, minimalist directory tree viewer"
+  desc "A fast, minimalist directory tree viewer"
   homepage "https://github.com/bgreenwell/lstr"
   # This version will be updated automatically by our release workflow
   version "0.2.0" # This should match the latest release
