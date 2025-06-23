@@ -1,4 +1,4 @@
-# Formula/lstr.rb
+PASTE_THE_X86_64_CHECKSUM_HERE# Formula/lstr.rb
 
 class Lstr < Formula
   desc "A blazingly fast, minimalist directory tree viewer"
